@@ -2,24 +2,25 @@
 
 Реализуйте приложение «Список задач», которое умеет две вещи:
 
-Добавлять задачи в список
-Удалять задачи из списка
-Задача должна добавляться в начало списка, то есть сверху.
+* Добавлять задачи в список
+* Удалять задачи из списка
+* Задача должна добавляться в начало списка, то есть сверху.
 
-src/index.jsx
+`src/index.jsx`
 Оберните компонент приложения в провайдер и добавьте результат в переменную dom.
 
-src/actions/index.js
+`src/actions/index.js`
 Реализуйте необходимые действия.
 
-src/reducers/index.js
+`src/reducers/index.js`
 Реализуйте необходимую логику.
 
-src/components/App.jsx
+`src/components/App.jsx`
 Реализуйте компонент <App>.
 
-HTML
+### HTML
 Начальный
+```
 <div class="col-5">
   <form action="" class="form-inline">
     <div class="form-group mx-sm-3">
@@ -28,7 +29,9 @@ HTML
     <button type="submit" class="btn btn-primary btn-sm">Add</button>
   </form>
 </div>
+```
 HTML после добавления двух задач
+```
 <div class="col-5">
   <form action="" class="form-inline">
     <div class="form-group mx-sm-3">
@@ -53,5 +56,6 @@ HTML после добавления двух задач
     </ul>
   </div>
 </div>
-Подсказки
-connect()
+```
+Подсказки:
+* connect()
